@@ -4,7 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -84,7 +84,7 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
         </scene>
-        <!--View Controller-->
+        <!--Discovery-->
         <scene sceneID="h4o-if-pWL">
             <objects>
                 <viewController id="zFa-kK-clJ" sceneMemberID="viewController">
@@ -94,13 +94,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="TRX-sK-yi1"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Discovery" selectedImage="icons8-Marker-50" id="NNj-bd-uNI"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2TD-Dh-8gD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="762" y="133"/>
+            <point key="canvasLocation" x="782" y="133"/>
         </scene>
     </scenes>
     <resources>
         <image name="ibm-logo-png-transparent-background" width="1000" height="500"/>
+        <image name="icons8-Marker-50" width="26" height="26"/>
     </resources>
 </document>

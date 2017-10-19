@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6E26131F994BFB007DA53D /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E26121F994BFB007DA53D /* DiscoveryViewController.swift */; };
 		37A1F8B91F992EDD00F6A2C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A1F8B81F992EDD00F6A2C3 /* AppDelegate.swift */; };
 		37A1F8BB1F992EDD00F6A2C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A1F8BA1F992EDD00F6A2C3 /* ViewController.swift */; };
 		37A1F8BE1F992EDD00F6A2C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A1F8BC1F992EDD00F6A2C3 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A6E26121F994BFB007DA53D /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
 		37A1F8B51F992EDD00F6A2C3 /* ITM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A1F8B81F992EDD00F6A2C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A1F8BA1F992EDD00F6A2C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				37A1F8C11F992EDD00F6A2C3 /* LaunchScreen.storyboard */,
 				37A1F8C41F992EDD00F6A2C3 /* Info.plist */,
 				37A1F8CA1F99371E00F6A2C3 /* GoogleService-Info.plist */,
+				0A6E26121F994BFB007DA53D /* DiscoveryViewController.swift */,
 			);
 			path = ITM;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A1F8BB1F992EDD00F6A2C3 /* ViewController.swift in Sources */,
+				0A6E26131F994BFB007DA53D /* DiscoveryViewController.swift in Sources */,
 				37A1F8B91F992EDD00F6A2C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
