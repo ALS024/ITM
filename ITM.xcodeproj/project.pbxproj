@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A6E26131F994BFB007DA53D /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E26121F994BFB007DA53D /* DiscoveryViewController.swift */; };
 		37A1F8B91F992EDD00F6A2C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A1F8B81F992EDD00F6A2C3 /* AppDelegate.swift */; };
 		37A1F8BB1F992EDD00F6A2C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A1F8BA1F992EDD00F6A2C3 /* ViewController.swift */; };
 		37A1F8BE1F992EDD00F6A2C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A1F8BC1F992EDD00F6A2C3 /* Main.storyboard */; };
 		37A1F8C01F992EDD00F6A2C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A1F8BF1F992EDD00F6A2C3 /* Assets.xcassets */; };
 		37A1F8C31F992EDD00F6A2C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A1F8C11F992EDD00F6A2C3 /* LaunchScreen.storyboard */; };
+		37D056661F998685008CE5E6 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D056651F998685008CE5E6 /* DiscoveryViewController.swift */; };
 		71DD38D0E5F78509453C275B /* Pods_ITM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F808F025A97A6CDA95955C /* Pods_ITM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A6E26121F994BFB007DA53D /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
 		37A1F8B51F992EDD00F6A2C3 /* ITM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A1F8B81F992EDD00F6A2C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A1F8BA1F992EDD00F6A2C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +25,7 @@
 		37A1F8C21F992EDD00F6A2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37A1F8C41F992EDD00F6A2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A1F8CA1F99371E00F6A2C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37D056651F998685008CE5E6 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
 		A7F808F025A97A6CDA95955C /* Pods_ITM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC59B42BCE92E23B55CC5AB4 /* Pods-ITM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ITM/Pods-ITM.debug.xcconfig"; sourceTree = "<group>"; };
 		E273D8488873D99194F19591 /* Pods-ITM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITM.release.xcconfig"; path = "Pods/Target Support Files/Pods-ITM/Pods-ITM.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 				37A1F8C11F992EDD00F6A2C3 /* LaunchScreen.storyboard */,
 				37A1F8C41F992EDD00F6A2C3 /* Info.plist */,
 				37A1F8CA1F99371E00F6A2C3 /* GoogleService-Info.plist */,
-				0A6E26121F994BFB007DA53D /* DiscoveryViewController.swift */,
+				37D056651F998685008CE5E6 /* DiscoveryViewController.swift */,
 			);
 			path = ITM;
 			sourceTree = "<group>";
@@ -186,13 +186,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ITM/Pods-ITM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
 				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -225,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A1F8BB1F992EDD00F6A2C3 /* ViewController.swift in Sources */,
-				0A6E26131F994BFB007DA53D /* DiscoveryViewController.swift in Sources */,
+				37D056661F998685008CE5E6 /* DiscoveryViewController.swift in Sources */,
 				37A1F8B91F992EDD00F6A2C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

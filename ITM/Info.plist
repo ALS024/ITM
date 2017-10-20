@@ -49,9 +49,9 @@
 	<string></string>
 	<key>CFBundleDisplayName</key>
 	<string></string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Shows your location on the map and helps improve OpenStreetMap.</string>
 	<key>CFBundleIconFile</key>
 	<string></string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Shows your location on the map and helps improve OpenStreetMap.</string>
 </dict>
 </plist>

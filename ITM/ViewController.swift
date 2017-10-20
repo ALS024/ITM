@@ -53,7 +53,4 @@ class ViewController: UIViewController {
 
 }
 
-import UIKit
-import Mapbox
-
 
