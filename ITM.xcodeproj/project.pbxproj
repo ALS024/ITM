@@ -13,22 +13,22 @@
 		37A1F8C01F992EDD00F6A2C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A1F8BF1F992EDD00F6A2C3 /* Assets.xcassets */; };
 		37A1F8C31F992EDD00F6A2C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A1F8C11F992EDD00F6A2C3 /* LaunchScreen.storyboard */; };
 		37D056661F998685008CE5E6 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D056651F998685008CE5E6 /* DiscoveryViewController.swift */; };
-		71DD38D0E5F78509453C275B /* Pods_ITM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F808F025A97A6CDA95955C /* Pods_ITM.framework */; };
+		457B5768F70AF6CD99296374 /* Pods_ITM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA314929E6AD1F0B1FFBE02A /* Pods_ITM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37A1F8B51F992EDD00F6A2C3 /* ITM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3504F6818C1A00488717A8 /* Pods-ITM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ITM/Pods-ITM.debug.xcconfig"; sourceTree = "<group>"; };
 		37A1F8B81F992EDD00F6A2C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A1F8BA1F992EDD00F6A2C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37A1F8BD1F992EDD00F6A2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37A1F8BF1F992EDD00F6A2C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37A1F8C21F992EDD00F6A2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37A1F8C41F992EDD00F6A2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37A1F8CA1F99371E00F6A2C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		37D056651F998685008CE5E6 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
-		A7F808F025A97A6CDA95955C /* Pods_ITM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC59B42BCE92E23B55CC5AB4 /* Pods-ITM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ITM/Pods-ITM.debug.xcconfig"; sourceTree = "<group>"; };
-		E273D8488873D99194F19591 /* Pods-ITM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITM.release.xcconfig"; path = "Pods/Target Support Files/Pods-ITM/Pods-ITM.release.xcconfig"; sourceTree = "<group>"; };
+		37F200D81F9A21DB0073A52D /* ITM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F200D91F9A22660073A52D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4C631D11E4D786779084CDC9 /* Pods-ITM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITM.release.xcconfig"; path = "Pods/Target Support Files/Pods-ITM/Pods-ITM.release.xcconfig"; sourceTree = "<group>"; };
+		FA314929E6AD1F0B1FFBE02A /* Pods_ITM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71DD38D0E5F78509453C275B /* Pods_ITM.framework in Frameworks */,
+				457B5768F70AF6CD99296374 /* Pods_ITM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,18 +47,10 @@
 			isa = PBXGroup;
 			children = (
 				37A1F8B71F992EDD00F6A2C3 /* ITM */,
-				37A1F8B61F992EDD00F6A2C3 /* Products */,
-				CB4A1D230C48A239DF425237 /* Pods */,
-				F93C5C5620093297C1358CBC /* Frameworks */,
+				37F200D81F9A21DB0073A52D /* ITM.app */,
+				DD51D2106D9C71DE727377C4 /* Pods */,
+				8D5350AD0ACD8D5BE1B7E25A /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		37A1F8B61F992EDD00F6A2C3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				37A1F8B51F992EDD00F6A2C3 /* ITM.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		37A1F8B71F992EDD00F6A2C3 /* ITM */ = {
@@ -70,27 +62,27 @@
 				37A1F8BF1F992EDD00F6A2C3 /* Assets.xcassets */,
 				37A1F8C11F992EDD00F6A2C3 /* LaunchScreen.storyboard */,
 				37A1F8C41F992EDD00F6A2C3 /* Info.plist */,
-				37A1F8CA1F99371E00F6A2C3 /* GoogleService-Info.plist */,
+				37F200D91F9A22660073A52D /* GoogleService-Info.plist */,
 				37D056651F998685008CE5E6 /* DiscoveryViewController.swift */,
 			);
 			path = ITM;
 			sourceTree = "<group>";
 		};
-		CB4A1D230C48A239DF425237 /* Pods */ = {
+		8D5350AD0ACD8D5BE1B7E25A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CC59B42BCE92E23B55CC5AB4 /* Pods-ITM.debug.xcconfig */,
-				E273D8488873D99194F19591 /* Pods-ITM.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F93C5C5620093297C1358CBC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A7F808F025A97A6CDA95955C /* Pods_ITM.framework */,
+				FA314929E6AD1F0B1FFBE02A /* Pods_ITM.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD51D2106D9C71DE727377C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D3504F6818C1A00488717A8 /* Pods-ITM.debug.xcconfig */,
+				4C631D11E4D786779084CDC9 /* Pods-ITM.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,7 +105,7 @@
 			);
 			name = ITM;
 			productName = ITM;
-			productReference = 37A1F8B51F992EDD00F6A2C3 /* ITM.app */;
+			productReference = 37F200D81F9A21DB0073A52D /* ITM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +133,7 @@
 				Base,
 			);
 			mainGroup = 37A1F8AC1F992EDD00F6A2C3;
-			productRefGroup = 37A1F8B61F992EDD00F6A2C3 /* Products */;
+			productRefGroup = 37A1F8AC1F992EDD00F6A2C3;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -369,7 +361,7 @@
 		};
 		37A1F8C81F992EDD00F6A2C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC59B42BCE92E23B55CC5AB4 /* Pods-ITM.debug.xcconfig */;
+			baseConfigurationReference = 0D3504F6818C1A00488717A8 /* Pods-ITM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,7 +377,7 @@
 		};
 		37A1F8C91F992EDD00F6A2C3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E273D8488873D99194F19591 /* Pods-ITM.release.xcconfig */;
+			baseConfigurationReference = 4C631D11E4D786779084CDC9 /* Pods-ITM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

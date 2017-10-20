@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>417411487067-hgbel8mvdun89dp3057j4dak13pn7b5i.apps.googleusercontent.com</string>
+	<string>480083621961-1ssab8sktf2in69h6il76675qpl9m5eu.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.417411487067-hgbel8mvdun89dp3057j4dak13pn7b5i</string>
+	<string>com.googleusercontent.apps.480083621961-1ssab8sktf2in69h6il76675qpl9m5eu</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBrLVyfeQpAU7fvXRsPg2bBAIocvL3g0oc</string>
+	<string>AIzaSyDal0Hkzag6YuHIFsxS6pS5WpZqfzKaodQ</string>
 	<key>GCM_SENDER_ID</key>
-	<string>417411487067</string>
+	<string>480083621961</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.rolman.ITM</string>
 	<key>PROJECT_ID</key>
-	<string>inthe-d3ba0</string>
+	<string>fir-signuplogin-f5ead</string>
 	<key>STORAGE_BUCKET</key>
-	<string>inthe-d3ba0.appspot.com</string>
+	<string>fir-signuplogin-f5ead.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:417411487067:ios:15990d44e717fbad</string>
+	<string>1:480083621961:ios:15990d44e717fbad</string>
 	<key>DATABASE_URL</key>
-	<string>https://inthe-d3ba0.firebaseio.com</string>
+	<string>https://fir-signuplogin-f5ead.firebaseio.com</string>
 </dict>
 </plist>

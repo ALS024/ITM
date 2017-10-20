@@ -7,18 +7,18 @@
 //
 
 import UIKit
-import FirebaseAuth
+
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
+    //@IBOutlet weak var emailTextField: UITextField!
+    //@IBOutlet weak var passwordTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    @IBAction func createAccount(_ sender: Any) {
+   /* @IBAction func createAccount(_ sender: Any) {
         if let email = emailTextField.text, let password =
             passwordTextField.text{
             
@@ -30,8 +30,8 @@ class ViewController: UIViewController {
             })
         }
         
-    }
-    @IBAction func loginTapped(_ sender: Any) {
+    }*/
+    /*@IBAction func loginTapped(_ sender: Any) {
         if let email = emailTextField.text, let password =
             passwordTextField.text{
             
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
             })
         }
         
-    }
+    }*/
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
