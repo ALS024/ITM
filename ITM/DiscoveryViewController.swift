@@ -13,11 +13,8 @@ class DiscoveryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "mapbox://styles/mapbox/streets-v10")
-        let mapView = MGLMapView(frame: view.bounds, styleURL: url)
-        mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        mapView.setCenter(CLLocationCoordinate2D(latitude: 84.4245, longitude: 33.66), zoomLevel: 9, animated: false)
-        view.addSubview(mapView)
+        setUpMap()
+
         // Do any additional setup after loading the view.
     }
 
@@ -27,6 +24,15 @@ class DiscoveryViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    private func setUpMap(){
+        let url = URL(string: "mapbox://styles/mapbox/streets-v10")
+        let mapView = MGLMapView(frame: view.bounds, styleURL: url)
+        mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        mapView.setCenter(CLLocationCoordinate2D(latitude:33.753746, longitude: -84.386330), zoomLevel: 9, animated: false)
+        self.view.addSubview(mapView)
+        
     }
 
 }
